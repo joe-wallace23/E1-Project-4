@@ -1,0 +1,175 @@
+.full{
+    position: relative;
+    display: block;
+    @include respond(tab-you){
+        display: none;
+    }
+    padding: 3rem 0 2rem;
+    &__content h2{
+        font-size: 1.3rem;
+        color: #000;
+        padding-bottom: .5rem;
+    }
+    &__list{
+        list-style: none;
+    }
+    &__item:not(:last-child){
+        margin-bottom: .3rem;
+    }
+    &__link{
+        font-size: 1rem;
+        color: #000;
+        &:hover{
+            color: #000;
+            text-decoration: none;
+        }
+    }
+    &__socialList{
+        list-style: none;
+    }
+    &__icon{
+        width: 2.7rem;
+        height: 2.7rem;
+        border: .1rem solid lightgray;
+        padding: .7rem;
+        border-radius: 5rem;
+    }
+    &__facebook:hover{
+        fill: #fff;
+        background-color: #4267B2;
+        border:  .1rem solid #4267B2;
+    }
+    &__twitter:hover{
+        fill: #fff;
+        background-color: #1da1f2;
+        border:  .1rem solid #1da1f2;
+    }
+    &__youtube:hover{
+        fill: #fff;
+        background-color: #FF0000;
+        border:  .1rem solid #FF0000;
+    }
+    &__instagram:hover{
+        fill: #fff;
+        background-color:  #e1306c;
+        border:  .1rem solid  #e1306c;
+    }
+    &__tumblr:hover{
+        fill: #fff;
+        background-color: #34526f;
+        border:  .1rem solid #34526f;
+    }
+    &__spotify:hover{
+        fill: #fff;
+        background-color: #1DB954;
+        border:  .1rem solid #1DB954;
+    }
+    
+    &__socialItem{
+        display: inline-block;
+        padding: .5rem 0;
+    }
+    &__socialItem:not(:last-child){
+        margin-right: 1.4rem;
+    }
+    &__button{
+        margin-left: 12rem;
+       
+    }
+    &__apple{
+        margin-right: 1.5rem;
+        @include respond(tab-land){
+            margin-right: 1rem;
+        }
+    }
+    &__content img{
+        width: 10rem;
+        height: 3.3rem;
+    }
+
+}
+.full .col-lg-6{
+    margin-top: 1.3rem;
+}
+.media{
+    position: relative;
+    display: none;
+    @include respond(tab-you){
+        display: block;
+    }
+    &__header{
+        font-size: 1.1rem;
+        color: #000;
+        &:hover{
+            color: #000;
+            text-decoration: none;
+        }
+    }
+    &__list{
+        list-style: none;
+    }
+    &__item:not(:last-child){
+      margin-bottom: .3rem;
+    }
+    &__link{
+        font-size: 1rem;
+        color: #000;
+        &:hover{
+            color: #000;
+            text-decoration: none;
+        }
+    }
+    &__icon{
+        width: 2rem;
+        height: 2rem;
+        fill: #000;
+        float: right;
+    }
+}
+
+.media .accordion > .card > .card-header {
+    border-radius: 0;
+    margin-bottom: -1px;
+    background-color: #fff;
+}
+.media .card{
+    border: none !important;
+}
+.media .card-header{
+    border: none !important;
+}
+.bottom{
+    position: relative;
+    &__line{
+        background-color: lightgrey;
+    }
+    &__content{
+        padding-top: 1.4rem;
+    }
+    &__list{
+        list-style: none;
+    }
+    &__item{
+        display: inline-block;
+    }
+    &__item:not(:last-child){
+        margin-right: .7rem;
+    }
+    &__link{
+        font-size: 1rem;
+        color: #000;
+        &:hover{
+            color: #000;
+            text-decoration: none;
+        }
+
+    }
+    &__content p.copy img{
+        width: 2rem;
+        height: 1.2rem;
+    }
+    &__content p.copy{
+        font-size: .8rem;
+        color: #000;
+    }
+}

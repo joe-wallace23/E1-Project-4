@@ -1,0 +1,35 @@
+.contact{
+    padding: 9rem 0 3rem;
+    &__content h1{
+        font-size: 3rem;
+        color: #000;
+        padding-bottom: 2rem;
+    }
+    &__send{
+        border: .1rem solid $color-button;
+        @include button;
+    }
+}
+.contact .contact-form .form-group label{
+    font-size: 1rem;
+    color: #000;
+    font-weight: bold;
+}
+.contact .contact-form .form-group textarea{
+    height: 8rem;
+}
+.contact .contact-form .form-group input[type="text"]{
+    outline: 0;
+  box-shadow: none !important;
+  border: .2rem solid $color-button;
+}
+.contact .contact-form .form-group input[type="email"]{
+    outline: 0;
+  box-shadow: none !important;
+  border: .2rem solid $color-button;
+}
+.contact .contact-form .form-group textarea{
+    outline: 0;
+  box-shadow: none !important;
+  border: .2rem solid $color-button;
+}

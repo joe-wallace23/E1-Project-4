@@ -1,0 +1,45 @@
+.nuggets{
+
+    &__button{
+        margin-top: 1.4rem;
+    }
+
+    &__order{
+        font-size: .9rem;
+        color: #292929;
+        background-color:$color-button;
+        padding: 1rem 1.2rem;
+        border-radius: .3rem;
+        &:hover{
+            color: #292929;
+            text-decoration: none;
+        }
+    }
+}
+.nav{
+
+
+    &__button{
+        margin: 1rem 0;
+    }
+    &__now{
+        font-size: 1rem;
+        color: #000;
+        background-color:$color-button;  
+        padding: .8rem 1.4rem;
+        border: .1rem solid $color-button;
+        border-radius: .3rem;
+        &:hover{
+            color: #000;
+            text-decoration: none;
+        }
+    }
+}
+.frees{
+     &__button{
+         margin: 2rem 0;
+     }
+    &__money{
+      @include button;
+    }
+}
